@@ -399,17 +399,26 @@ footer {
     visibility: hidden;
 }
 
+
+
+
+
 @media (max-width:480px) {
     .header {
         display: flex;
         margin: 0 auto;
         padding-top: 2rem;
         padding-left: 2rem;
+        background-color: #081158;
+        width: 100%;
+        padding-bottom: 1rem;
+        align-items: start;
     }
 
     .logo_items {
         font-weight: 900;
         font-size: 1.5rem;
+        color: white;
     }
 
     .navbar {
@@ -419,23 +428,28 @@ footer {
     #hamburger {
         visibility: visible;
         margin-left: 20rem;
+        color: white;
     }
 
     #mobileContainerli {
         list-style: none;
+        color: white;
     }
 
     #mobileContainer_ul {
         visibility: hidden;
     }
 
+    #mobileContainer{
+        display: none;
+    }
+
     #mobileContainer_ul {
-        position: absolute;
         display: flex;
         gap: 1rem;
         width: 480px;
-        margin-top: 3rem;
-        margin-left: -4rem;
+        padding-top: 3rem;
+        margin-left: -25rem;
     }
 
     #mobileContainerli {
@@ -453,7 +467,7 @@ footer {
 
     .main_section_item {
         width: 480px;
-        padding-top: 3rem;
+        padding-top: 0.1rem;
     }
 
     .main_section_item_p1 {
